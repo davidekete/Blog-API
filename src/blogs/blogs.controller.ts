@@ -31,4 +31,19 @@ export class BlogsController {
   async getBlog(@Param('id') id: string) {
     return await this.service.getBlog(id);
   }
+
+  @Put(':id')
+  async updateBlog(
+    @Param('id')
+    id: string,
+    @Body()
+    blog: BlogsInterface,
+  ) {
+    return await this.service.updateBlog(id, blog);
+  }
+
+  @Delete(':id')
+  async deleteBlog(@Param('id') id: string) {
+    return await this.service.deleteBlog(id);
+  }
 }

@@ -12,7 +12,10 @@ export class BlogsService {
   ) {}
 
   async createBlog(blog: BlogsInterface): Promise<Blog> {
-    return await new this.blogModel(blog).save();
+    return await new this.blogModel({
+      ...blog,
+      dateCreated: new Date(),
+    }).save();
   }
 
   async getAllBlogs(): Promise<Blog[]> {
