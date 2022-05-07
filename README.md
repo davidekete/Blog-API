@@ -17,7 +17,7 @@ A simple Blog API with CRUD functionality built with Typescript(NestJS).
 - [x]  Update an already existing blog
 - [x]  Delete an already existing blog
 
-### Do drop a star and a follow👌
+### Drop a star and a follow👌
 
 
 ## Author(s)🫂.
