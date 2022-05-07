@@ -1,15 +1,16 @@
-# NestJS Blog API
+# Blog API In NestJS📰.
 
-A simple Blog API with CRUD functionality built with NestJS.
+A simple Blog API with CRUD functionality built with Typescript(NestJS).
 
-## Technologies used
+## Technologies👨‍💻.
 
 
 - NestJS
-- Mongoose
+- REST APIs
+- MongoDB(Mongoose)
 
 
-## Features
+## Features 🦸
 
 - [x]  Create a new blog
 - [x]  Read an already existing blog
@@ -17,3 +18,7 @@ A simple Blog API with CRUD functionality built with NestJS.
 - [x]  Delete an already existing blog
 
 ### Do drop a star and a follow👌
+
+
+## Author(s)🫂.
+- [Ekete David](https://twitter.com/David_Ekete)
