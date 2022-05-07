@@ -22,3 +22,6 @@ A simple Blog API with CRUD functionality built with Typescript(NestJS).
 
 ## Author(s)🫂.
 - [Ekete David](https://twitter.com/David_Ekete)
+
+## Documentation📰
+[Blog API](https://documenter.getpostman.com/view/20359203/UyxdKpCj)
